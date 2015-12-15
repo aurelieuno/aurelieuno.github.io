@@ -1,0 +1,106 @@
+<!DOCTYPE HTML></DOCTYPE>
+<HTML>
+    <HEAD>
+        <title>Lili's Trial 1</title>
+        <style>
+            body {
+                background: rgb(255, 204, 102);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(255, 0, 102);
+                margin: 0 auto;
+                margin-bottom: 20px
+                display: flex;
+                padding: 10px;
+                border-top-right-radius:25px;
+                border-top-left-radius:25px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(255, 255, 204);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+            img {
+                padding: 0px;
+                border: 5px solid orange
+            }
+        </style>
+        
+    </HEAD>
+    <BODY>
+        <div id="all contents">
+            <nav>
+                <header>Presentation</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://s-media-cache-ak0.pinimg.com/236x/88/d3/af/88d3af7fdfe21db5662e8b609ae0cc52.jpg">
+                </div>
+                <div class="content">
+                    <h1>AURELIE LEBEC</h1>
+                    <P>ACTUARY, DOMESTIC MARKET</P>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Biking</li>
+                            <li>Cooking</li>
+                            <li>Chocolate</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </BODY>
+    
+</HTML>
