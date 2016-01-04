@@ -2,9 +2,9 @@
 <HTML>
     <HEAD>
         <title>Lili's Trial 1</title>
-        <style>
+   <style type="text/css">
             body {
-                background: rgb(255, 204, 102);
+                background: rgb(125, 198, 205);
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -13,20 +13,20 @@
                 font-size: 1.5em;
                 font-weight: bold;
             }
-            [id=all-contents] {
+            h1 {
+                margin: 10px;
+            }
+            #all-contents {
                 max-width: 800px;
                 margin: auto;
             }
 
             /* navigation menu */
             nav {
-                background: rgb(255, 0, 102);
+                background: rgb(239, 80, 41);
                 margin: 0 auto;
-                margin-bottom: 20px
                 display: flex;
                 padding: 10px;
-                border-top-right-radius:25px;
-                border-top-left-radius:25px;
             }
             nav header {
                 display: flex;
@@ -45,30 +45,37 @@
                 text-decoration: none;
                 color: #fff;
             }
-    
 
             /* main container area beneath menu */
             main {
-                background: rgb(255, 255, 204);
+                background: rgb(245, 238, 219);
                 display: flex;
             }
-            [class=sidebar] {
-                margin-right: 25px;
-                padding: 10px;
-            }
-            [class=sidebar] img {
-                width: 200px;
-            }
-            [class=content] {
+            .content {
                 flex: 1;
                 padding: 15px;
             }
-            [class=interests] header {
-                font-size: 1.25em;
+
+            /* portfolio styles */
+            #portfolio {
+                list-style-type: none;
+                padding-left: 0;
             }
-            img {
-                padding: 0px;
-                border: 5px solid orange
+
+            #portfolio li {
+                background: #fff;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+
+            #portfolio li:hover {
+                background: #eee;
+            } 
+
+            #portfolio a {
+                text-decoration: none;
+                color: #454545;
             }
         </style>
         
