@@ -1,10 +1,4 @@
-<!DOCTYPE HTML></DOCTYPE>
-<HTML>
-    <HEAD>
-        <title>Lili's Trial 1</title>
-        <link rel="stylesheet" href="css/site-wide.css" type="text/css" />
-   <style type="text/css">
-            body {
+body {
                 background: rgb(50, 70, 75);
                 color: rgb(250, 198, 236);
                 padding: 10px;
@@ -80,35 +74,3 @@
             }
         </style>
         
-    </HEAD>
-    <BODY>
-        <div id="all contents">
-            <nav>
-                <header>Presentation</header>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                </ul>
-            </nav>
-            
-            <main>
-                <div class="sidebar">
-                    <img src="https://s-media-cache-ak0.pinimg.com/236x/88/d3/af/88d3af7fdfe21db5662e8b609ae0cc52.jpg">
-                </div>
-                <div class="content">
-                    <h1>AURELIE LEBEC</h1>
-                    <P>ACTUARY, DOMESTIC MARKET</P>
-                    <section class="interests">
-                        <header>Interests</header>
-                        <ul>
-                            <li>Biking</li>
-                            <li>Cooking</li>
-                            <li>Chocolate</li>
-                        </ul>
-                    </section>
-                </div>
-            </main>
-        </div>
-    </BODY>
-    
-</HTML>
