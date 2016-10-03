@@ -45,7 +45,7 @@ If you don't know any of these concepts, see a Teacher or TA before starting thi
  1. [ ] run `console.log(animal)` and refresh your page to see what `animal` looks like.
  1. [ ] It should be something like: 
 ~~~JS
-{ species: 'duck', name: 'Jennifer', noises: [] }
+{ species: 'duck', name: 'Jennifer'//step 2, noises: [] }
 ~~~
 
 ## Step 2 - Array Creation

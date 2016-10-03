@@ -3,7 +3,7 @@
 <html>
     
     <head>
-      <title>Lili's Trial 1</title>
+      <title>Lili's Website</title>
        <style type="text/css">
             body {
                 background: rgb(125, 198, 205);
@@ -29,12 +29,17 @@
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                
+                border: 2px solid;
+                border-radius: 20px;
+                
             }
             nav header {
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
                 flex: 1;
+                
             }
             nav ul {
                 list-style-image: none;
@@ -52,6 +57,9 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                
+                border: 2px solid;
+                border-radius: 20px;
             }
             .content {
                 flex: 1;
@@ -80,16 +88,15 @@
                 color: #454545;
             }
         </style>
-    </head>>
+    </head>
     
-    ><body>
+    <body>
         <nav>
-            <header>Lily Trial 1</header>
+            <header>Lili's Website</header>
             <ul>
-                <li><a href="index.html">Home</a>
-                </li>
-                <li><a href="portfolio.html">Portfolio</a>
-                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="studies.html">Studies</a></li>
             </ul>
         </nav>
        <main>
@@ -103,4 +110,4 @@
         <script id="portfolioScript">$(document).ready(function() {$.getJSON('projects/projects.json').then(function(data) { data.projects.forEach(function(project){ $('#portfolio').append('<li><a href="projects/' + project.name + '/">' + project.title + ' : ' + project.description + '</a></li>'); }); }); });</script>
     </body>
     
-</html>>
+</html>

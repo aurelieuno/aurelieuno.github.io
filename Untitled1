@@ -1,0 +1,20 @@
+//function 1
+//objectValues() : Should take an object and return its values in an array (1)Rerun
+function objectValues(object){
+    var values=[];
+    each(object,function(value){
+        values.push(value);
+    
+});
+//>defining EACH in function 1
+function each (collection,action){
+    if(Array.isArray(collection)){
+        for (var i =0 ; i < collection.length; i++) {
+            action(collection[i],index,collection);
+        }
+    } else {
+        for(var key in collection){
+            action(collection[key],key,collection);
+        }
+    }
+}

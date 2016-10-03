@@ -2,20 +2,25 @@
 <HTML>
     <HEAD>
         <title>Lili's Trial 1</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+        <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>-->
+        <script type="text/javascript" src="script.js"></script>
         <link rel="stylesheet" href="css/site-wide.css" type="text/css" />
+        
    <style type="text/css">
+   
             body {
-                background: rgb(50, 70, 75);
-                color: rgb(250, 198, 236);
+                background: rgb(248, 178, 124);
+                color: rgb(51, 102, 255);
                 padding: 10px;
                 font-family: arial;
             }
-            header {
+            header {                      
                 font-size: 1.5em;
                 font-weight: bold;
             }
             h1 {
-                margin: 10px;
+                margin: 5px;
             }
             #all-contents {
                 max-width: 800px;
@@ -25,11 +30,15 @@
             /* navigation menu */
             nav {
                 background: rgb(239, 80, 41);
-                margin: 0 auto;
+                margin: 6px;
                 display: flex;
                 padding: 10px;
+                
+                border: 2px solid;
+                border-radius: 20px;
             }
-            nav header {
+            
+            nav header { 
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
@@ -49,8 +58,11 @@
 
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background: rgb(255, 238, 219);
                 display: flex;
+                
+                border: 2px solid;
+                border-radius: 25px;
             }
             .content {
                 flex: 1;
@@ -66,7 +78,7 @@
             #portfolio li {
                 background: #fff;
                 padding: 10px;
-                border-radius: 10px;
+                border-radius: 20px;
                 margin-bottom: 10px;
             }
 
@@ -78,6 +90,18 @@
                 text-decoration: none;
                 color: #454545;
             }
+            .sidebar{
+                margin-top: 25px;
+                margin-left : 20px;
+            }
+            img {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:white;
+}
+           
+
+
         </style>
         
     </HEAD>
@@ -88,16 +112,17 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="studies.html">Studies</a></li>
                 </ul>
             </nav>
             
             <main>
                 <div class="sidebar">
-                    <img src="https://s-media-cache-ak0.pinimg.com/236x/88/d3/af/88d3af7fdfe21db5662e8b609ae0cc52.jpg">
+                    <img src="https://s-media-cache-ak0.pinimg.com/236x/88/d3/af/88d3af7fdfe21db5662e8b609ae0cc52.jpg" width="180" height:"180" border="5";>
                 </div>
                 <div class="content">
-                    <h1>AURELIE LEBEC</h1>
-                    <P>ACTUARY, DOMESTIC MARKET</P>
+                    <h1>LILI LEBEC</h1>
+                    <P>NORMANDY COWGIRL</P>
                     <section class="interests">
                         <header>Interests</header>
                         <ul>
