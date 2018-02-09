@@ -42,6 +42,9 @@ h2 {
 .list-social-icons a {
   color: #495057;
 }
+.icon-text {
+  font-size: 0.5rem;
+}
 
 .list-social-icons a:hover {
   color: #BD5D38;
